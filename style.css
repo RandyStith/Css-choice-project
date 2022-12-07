@@ -191,11 +191,11 @@ section .set div:nth-child(8)
   
 }
 
-img {
+.img {
   filter: opacity(.9);
 }
 
-img:hover {
+.img:hover {
   scale: 1.1;
 }
 
@@ -234,4 +234,31 @@ img:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid red;
+  float: left;
+  width: 360px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+
+div.gallery:hover {
+  border: 1px solid red;
+  border: 5px solid red;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #171717;
+  color: white;
 }
